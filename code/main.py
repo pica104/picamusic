@@ -24,25 +24,57 @@ os.system('cls')
 while True:
 	a1 = pygame.mixer.Sound('playlist/1.mp3')
 	a1.play()
-	os.system('cls')
-	print(Fore.BLACK + Back.WHITE + 'Freddie Dredd ' + Style.RESET_ALL + '-' + Fore.WHITE + Back.BLACK + ' Killin On Demand')
-	print(text)
-	time.sleep(130)
+	music_time = 0
+	music_time2 = 0
+	for i in range(130):
+		os.system('cls')
+		print(Fore.BLACK + Back.WHITE + 'Freddie Dredd ' + Style.RESET_ALL + '-' + Fore.WHITE + Back.BLACK + ' Killin On Demand')
+		if music_time == 60:
+			music_time2 = music_time2 + 1
+			music_time = 0
+		music_time = music_time + 1
+		print('  ' + Fore.WHITE, Back.BLACK + f'{music_time2}:{music_time}/2:10')
+		print(text)
+		time.sleep(1)
 	a2 = pygame.mixer.Sound('playlist/2.wav')
 	a2.play()
-	os.system('cls')
-	print(Fore.BLACK + Back.WHITE + 'keygen.exe ' + Style.RESET_ALL + '-' + Fore.WHITE + Back.BLACK + ' а сил у тебя хватит?')
-	print(text)
-	time.sleep(120)
+	music_time = 0
+	music_time2 = 0
+	for i in range(120):
+		os.system('cls')
+		print(Fore.BLACK + Back.WHITE + 'keygen.exe ' + Style.RESET_ALL + '-' + Fore.WHITE + Back.BLACK + ' а сил у тебя хватит?')
+		if music_time == 60:
+			music_time2 = music_time2 + 1
+			music_time = 0
+		music_time = music_time + 1
+		print('  ' + Fore.WHITE, Back.BLACK + f'{music_time2}:{music_time}/2:00')
+		print(text)
+		time.sleep(1)
 	a3 = pygame.mixer.Sound('playlist/3.mp3')
 	a3.play()
-	os.system('cls')
-	print(Fore.BLACK + Back.WHITE + 'Encassator, Madeinevil ' + Style.RESET_ALL + '-' + Fore.WHITE + Back.BLACK + ' Never Met!')
-	print(text)
-	time.sleep(95)
+	music_time = 0
+	music_time2 = 0
+	for i in range(95):
+		os.system('cls')
+		print(Fore.BLACK + Back.WHITE + 'Encassator, Madeinevil ' + Style.RESET_ALL + '-' + Fore.WHITE + Back.BLACK + ' Never Met!')
+		if music_time == 60:
+			music_time2 = music_time2 + 1
+			music_time = 0
+		music_time = music_time + 1
+		print('  ' + Fore.WHITE, Back.BLACK + f'{music_time2}:{music_time}/1:35')
+		print(text)
+		time.sleep(1)
 	a4 = pygame.mixer.Sound('playlist/4.mp3')
 	a4.play()
-	os.system('cls')
-	print(Fore.BLACK + Back.WHITE + 'Prodby668 ' + Style.RESET_ALL + '-' + Fore.WHITE + Back.BLACK + ' prolly my spookiest beat (Slowed+Reverbed)')
-	print(text)
-	time.sleep(143)
+	music_time = 0
+	music_time2 = 0
+	for i in range(143):
+		os.system('cls')
+		print(Fore.BLACK + Back.WHITE + 'Prodby668 ' + Style.RESET_ALL + '-' + Fore.WHITE + Back.BLACK + ' prolly my spookiest beat (Slowed+Reverbed)')
+		if music_time == 60:
+			music_time2 = music_time2 + 1
+			music_time = 0
+		music_time = music_time + 1
+		print('  ' + Fore.WHITE, Back.BLACK + f'{music_time2}:{music_time}/2:23')
+		print(text)
+		time.sleep(1)
