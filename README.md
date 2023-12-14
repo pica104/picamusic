@@ -8,9 +8,9 @@ eng: sorry but this file is 59 mb, download this file here pls
 
 rus: простите но этот файл 59 мб, скайчайте этот файл здесь пожалуйста
 
-https://drive.google.com/file/d/1YAEBbK9RlM9MW3J36Op9KVBikBPWGrBG/view 
+https://drive.google.com/file/d/1REiaCuJ9bKm9I1tsjo2Wsi5o4VelA2Nw/view?usp=sharing
 -
-https://disk.yandex.ru/d/ezsiOod898Nf3g
+https://disk.yandex.ru/d/CKQws75Ri3yAOw
 -
 
 P.s.
